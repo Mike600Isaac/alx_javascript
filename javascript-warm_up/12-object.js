@@ -5,4 +5,6 @@ const myObject = {
 };
 console.log(myObject)
 //Accessing and object to update the value
+myObject.type = 'object';
 myObject.value = 89;
+console.log(myObject)
