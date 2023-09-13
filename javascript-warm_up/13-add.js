@@ -9,4 +9,6 @@ function add(a, b){
   return a + b
 };
 
-console.log(add(-4,85))
+console.log(add(3,5))
+
+module.exports = { add }
