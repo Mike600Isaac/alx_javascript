@@ -5,10 +5,8 @@
 // You are not allowed to use var
 
 
-function add(a, b){
-  return a + b;
+exports.add = function add(a, b){
+  return a + b
 };
-
-module.export = add 
-console.log(add(3,5));
+// console.log(add(3,5));
 
