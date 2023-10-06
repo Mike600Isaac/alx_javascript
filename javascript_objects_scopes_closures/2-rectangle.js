@@ -11,7 +11,7 @@ class Rectangle {
   
 }
 
-if( width || height === 0 || width || height < 0 ){
+if( this.width || this.height === 0 || this.width || this.height < 0 ){
   const objectA = new object(); 
 }
 
