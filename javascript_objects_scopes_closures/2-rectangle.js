@@ -1,4 +1,5 @@
 //#!/usr/bin/node
+//2-rectangle.js
 // create a class using a dot notation & an empty object
 
 class Rectangle {
