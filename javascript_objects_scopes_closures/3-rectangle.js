@@ -1,48 +1,48 @@
 #!/usr/bin/node
 // Write a class Rectangle that defines a rectangle:
 //What is happening here!
-module.exports = class Rectangle{
+// module.exports = class Rectangle{
 
-  constructor(w,h) {
+//   constructor(w,h) {
     
-    if((w <= 0) || (h <= 0) || !w || !h){
-      return this;
-    }
-    this.width = w;
-    this.height = h;
-
-  }
-  print () {
-    for (let i = 0; i <= this.height; i++) {
-      let row = '';
-      for (let j = 0; j <= this.width; j++) {
-          row += 'X';
-      }
-      console.log(row);
-    }
-  }
-};
-
-
-
-// module.exports = class Rectangle {
-//     constructor (w, h) {
-//       if ((w <= 0) || (h <= 0) || !h || !w) {
-//         return this;
-//       }
-//       this.width = w;
-//       this.height = h;
+//     if((w <= 0) || (h <= 0) || !w || !h){
+//       return this;
 //     }
-//     print () {
-//         for (let i = 0; i < this.height; i++) {
-//           let row = '';
-//           for (let j = 0; j < this.width; j++) {
-//             row += 'X';
-//           }
-//           console.log(row);
-//         }
+//     this.width = w;
+//     this.height = h;
+
+//   }
+//   print () {
+//     for (let i = 0; i <= this.height; i++) {
+//       let row = '';
+//       for (let j = 0; j <= this.width; j++) {
+//           row += 'X';
 //       }
-//   };
+//       console.log(row);
+//     }
+//   }
+// };
+
+
+
+module.exports = class Rectangle {
+    constructor (w, h) {
+      if ((w <= 0) || (h <= 0) || !h || !w) {
+        return this;
+      }
+      this.width = w;
+      this.height = h;
+    }
+    print () {
+        for (let i = 0; i < this.height; i++) {
+          let row = '';
+          for (let j = 0; j < this.width; j++) {
+            row += 'X';
+          }
+          console.log(row);
+        }
+      }
+  };
 
 
 
