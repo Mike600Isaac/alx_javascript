@@ -1,6 +1,6 @@
 // A class Rectangle with a constructor initialized
 class Rectangle{
-  
+
   constructor(w, h){
     this.weight = w;
     this.height = h;
@@ -8,4 +8,4 @@ class Rectangle{
 }
 
 
-module.exports = Rectangle
+module.exports = Rectangle;
