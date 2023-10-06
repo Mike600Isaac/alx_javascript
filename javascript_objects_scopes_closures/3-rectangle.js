@@ -1,6 +1,6 @@
 #!/usr/bin/node
 // Write a class Rectangle that defines a rectangle:
-class Rectangle{
+module.exports = class Rectangle{
 
   constructor(w,h) {
     
@@ -22,7 +22,6 @@ class Rectangle{
   }
 }
 
-module.exports = Rectangle;
 
 
 
