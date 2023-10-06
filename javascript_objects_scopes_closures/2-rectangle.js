@@ -6,7 +6,7 @@
 class Rectangle {
   constructor(w,h) {
 
-    if( (w || h === 0) || (w || h < 0) ){ 
+    if( (w === 0) || (h === 0) ||(w < 0) || (h < 0)){ 
       return this;
     }
 
