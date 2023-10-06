@@ -1,11 +1,11 @@
 #!/usr/bin/node
 // Write a class Rectangle that defines a rectangle:
-module.exports = class Rectangle{
+class Rectangle{
 
   constructor(w,h) {
     
     if((w <= 0) || (h <= 0) || !w || !h){
-      return this
+      return this;
     }
     this.width = w;
     this.height = h;
@@ -22,7 +22,7 @@ module.exports = class Rectangle{
   }
 }
 
-
+module.exports = Rectangle;
 
 
 // function print (width,height) {
@@ -36,3 +36,22 @@ module.exports = class Rectangle{
 // }
 
 // print(3,4);
+
+// module.exports = class Rectangle {
+//     constructor (w, h) {
+//       if ((w <= 0) || (h <= 0) || !h || !w) {
+//         return this;
+//       }
+//       this.width = w;
+//       this.height = h;
+//     }
+//     print () {
+//         for (let i = 0; i < this.height; i++) {
+//           let row = '';
+//           for (let j = 0; j < this.width; j++) {
+//             row += 'X';
+//           }
+//           console.log(row);
+//         }
+//       }
+//   };
